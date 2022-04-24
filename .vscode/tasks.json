@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++.exe アクティブなファイルのビルド",
+      "command": "C:/Tools/msys64/mingw64/bin/g++.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "-std=c++17",
+        "-I",
+        ".",
+        "-D_GLIBCXX_DEBUG"
+      ],
+      "options": {
+        "cwd": "C:/Tools/msys64/mingw64/bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "デバッガーによって生成されたタスク。"
+    }
+  ],
+  "version": "2.0.0"
+}
