@@ -1,6 +1,6 @@
 a, b, c, d = map(int, input().split())
 
-left = a+b
+left = a + b
 right = c + d
 
 if left < right:
