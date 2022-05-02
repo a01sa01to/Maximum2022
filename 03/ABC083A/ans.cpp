@@ -2,12 +2,14 @@
 using namespace std;
 
 int main() {
+  // 入力
   int a, b, c, d;
   cin >> a >> b >> c >> d;
 
-  int left = a + b;
-  int right = c + d;
+  int left = a + b;   // 天秤の左にあるおもり
+  int right = c + d;  // 天秤の右にあるおもり
 
+  // 出力
   if (left < right) {
     cout << "Right" << endl;
   }

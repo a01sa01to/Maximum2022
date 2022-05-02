@@ -2,9 +2,11 @@
 using namespace std;
 
 int main() {
+  // 入力
   int a, b;
   cin >> a >> b;
 
+  // 出力
   if (a + b >= 15 && b >= 8) {
     cout << 1 << endl;
   }
